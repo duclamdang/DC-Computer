@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thông tin sản phẩm - Demo</title>
+  <link rel="stylesheet" href="style_item.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo">
+        <div class="logo-text">
+          <span>DC Computer</span>
+        </div>
+      </div>
+  
+      <div class="nav-items">
+        <a class="nav-btn" href="#">HOME</a>
+        <a class="nav-btn" href="#">DANH MỤC</a>
+        <a class="nav-btn" href="#"><img src="assets/location.png" class="icon"> BÌNH DƯƠNG</a>
+      </div>
+  
+      <div class="nav-actions">
+        <div class="search-container">
+          <input type="text" placeholder="Nhập thông tin tìm kiếm...">
+          <button class="search-btn">TÌM KIẾM</button>
+        </div>              
+        <a class="icon-btn" href="#"><img src="assets/login.png"> LOG IN</a>
+        <a class="icon-btn" href="#"><img src="assets/cart.png"></a>
+      </div>
+    </div>   
+  </header>
+  <div class="container">
+    <div class="product-page">
+      <div class="product-image">
+        <img src="./assets/laptop.png" alt="Laptop Dell 5411" />
+      </div>
+      <div class="product-info">
+        <h2 class="badge">⭐ Độc quyền tại DC Shop</h2>
+        <h1 class="title">Laptop Dell 5411 - i3 12100F - RTX 4080 - Chính hãng VN/A</h1>
+        <div class="rating">
+          <span class="rating-score">4.8 ★</span> | <a href="#">6 đánh giá</a> | <a href="#">Thông số kỹ thuật</a>
+        </div>
+
+        <div class="price-section">
+          <p class="current-price">15.900.000 ₫</p>
+          <p class="old-price">18.990.000 ₫</p>
+          <p class="discount">(-16%)</p>
+        </div>
+
+        <div class="specs">
+          <ul>
+            <li>CPU: AMD Ryzen 7 5700U (8 nhân / 16 luồng, xung tối đa 4.3GHz)</li>
+            <li>RAM: 16GB DDR4 (có thể nâng cấp)</li>
+            <li>Ổ cứng: 512GB SSD NVMe PCIe Gen3</li>
+            <li>Màn hình: 15.6 inch Full HD (1920 x 1080), tấm nền IPS, chống chói</li>
+            <li>Card đồ họa: AMD Radeon Graphics tích hợp</li>
+            <li>Hệ điều hành: Windows 11 Home bản quyền</li>
+            <li>Trọng lượng: khoảng 1.78kg</li>
+          </ul>
+        </div>
+
+        <div class="promotion">
+          <strong>🎁 Khuyến mãi:</strong>
+          <ul>
+            <li>Giảm ngay 3.000.000₫ đến 19/05</li>
+            <li>Tặng phiếu mua hàng 100.000₫</li>
+          </ul>
+        </div>
+
+        <button class="add-to-cart" onclick="addToCart()">🛒 Thêm vào giỏ hàng</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function addToCart() {
+      alert("Đã thêm vào giỏ hàng!");
+    }
+  </script>
+</body>
+</html>
